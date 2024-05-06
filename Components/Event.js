@@ -17,7 +17,9 @@ export default function Event() {
           </p>
         </a>
       </div>
-      <div>{/* <Maps /> */} Undervejs...</div>
+      <div className="text-center">
+        {/* <Maps /> */} Google Maps Widget er Undervejs...
+      </div>
     </div>
   );
 }

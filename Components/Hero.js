@@ -2,6 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
+import Button from "./Button";
 
 export default function Hero() {
   return (
@@ -41,6 +42,9 @@ export default function Hero() {
             <p className="text-xl font-thin">hosted af Gringoerne</p>
           </div>
         </motion.div>
+        <div className="pt-40 md:pt-10">
+          <Button />
+        </div>
       </div>
     </div>
   );
