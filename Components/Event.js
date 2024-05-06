@@ -17,9 +17,7 @@ export default function Event() {
           </p>
         </a>
       </div>
-      <div>
-        <Maps />
-      </div>
+      <div>{/* <Maps /> */} Undervejs...</div>
     </div>
   );
 }
