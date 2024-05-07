@@ -17,12 +17,24 @@ export default function Event() {
           </p>
         </a>
       </div>
-      <div className="text-center">
+      <div className="hidden md:block">
         {/* Google Maps Widget er Undervejs... */}
         <Iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.090323194148!2d12.5896767!3d55.687417399999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652531f6b9ea14f%3A0x19f4cf53612ed6eb!2sGernersgade%203%2C%201319%20K%C3%B8benhavn!5e0!3m2!1sda!2sdk!4v1715106990278!5m2!1sda!2sdk"
           width="600"
           height="300"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></Iframe>
+      </div>
+      <div className="flex flex-row justify-center items-center md:hidden pt-5">
+        {/* Google Maps Widget er Undervejs... */}
+        <Iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2249.090323194148!2d12.5896767!3d55.687417399999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4652531f6b9ea14f%3A0x19f4cf53612ed6eb!2sGernersgade%203%2C%201319%20K%C3%B8benhavn!5e0!3m2!1sda!2sdk!4v1715106990278!5m2!1sda!2sdk"
+          width="300"
+          height="200"
           style="border:0;"
           allowfullscreen=""
           loading="lazy"
