@@ -1,4 +1,7 @@
+"use client";
+
 import React from "react";
+import { motion } from "framer-motion";
 
 export default function Footer() {
   return (
@@ -13,7 +16,21 @@ export default function Footer() {
       </div>
       <div className="flex flex-row justify-end">
         <img src="/szpirt.png" className=" md:h-32 h-20" />
-        <img src="/holdet.png" className=" md:h-32 h-20 -rotate-12" />
+        <a
+          href="https://www.instagram.com/p/Cs_47VAN9VDlufx6jhCpstfIZRrr_hBZn5v6Dg0/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <motion.div
+            whileHover={{
+              scale: 1.1,
+              transition: { duration: 0.3 },
+            }}
+            whileTap={{ scale: 0.9 }}
+          >
+            <img src="/holdet.png" className=" md:h-32 h-20 -rotate-12" />
+          </motion.div>
+        </a>
       </div>
     </div>
   );
