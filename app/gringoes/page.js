@@ -1,9 +1,8 @@
 import React from "react";
-import Hero from "../../components/Hero";
-import Event from "../../components/Event";
-import Invite from "@/components/Invite";
-import Footer from "@/components/Footer";
-import Socials from "@/components/Socials";
+import Hero from "../../components/Hero.js";
+import Event from "../../components/Event.js";
+import Invite from "../../components/Invite.js";
+import Footer from "../../components/Footer.js";
 
 export default function page() {
   return (
