@@ -25,7 +25,7 @@ const contacts = [
 
 export default function Socials() {
   return (
-    <div className="bg-[#FCF4EC] flex flex-row items-center justify-center pb-5 md:pb-10 gap-8">
+    <div className="bg-[#FCF4EC] flex flex-row items-center justify-center pb-5 md:pb-10 gap-8 text-black">
       {contacts.map((contact, i) => {
         return (
           <a href={contact.url} target="_blank" rel="noreferrer" key={i}>

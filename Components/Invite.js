@@ -7,7 +7,7 @@ export default function Invite() {
         <p className="text-3xl text-[#D59957] font-bold pb-10">
           Hva så skideskure
         </p>
-        <div className="italic flex flex-col gap-4 font-light">
+        <div className="italic flex flex-col gap-4 font-light text-black">
           <p className="font-light">
             Da Amerikanerne ikke kan finde ud af at afholde Pranzo, så må el
             gringos hellere løbe med den.

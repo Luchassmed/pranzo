@@ -3,7 +3,7 @@ import Iframe from "react-iframe";
 
 export default function Event() {
   return (
-    <div className="flex flex-col md:flex-row bg-[#FCF4EC] p-10 md:p-20 justify-between content-between">
+    <div className="flex flex-col md:flex-row bg-[#FCF4EC] p-10 md:p-20 justify-between content-between text-black">
       <div className="items-center md:items-start flex flex-col justify-center gap-4">
         <p className="text-lg md:text-xl">Dato for denne Pranzo:</p>
         <p className="text-xl md:text-3xl">Søndag, den 26. maj, 2024</p>

@@ -10,7 +10,7 @@ export default function Footer() {
         <img src="/luch.png" className=" md:h-32 h-20" />
         <img src="/karl.png" className=" md:h-32 h-20" />
       </div>
-      <div className="flex flex-col justify-center items-center">
+      <div className="flex flex-col justify-center items-center text-black">
         <p className="text-lg">Ses med dig</p>
         <p className="text-xl">Karl, Luchas & Marcus</p>
       </div>
