@@ -1,5 +1,5 @@
-import Navbar from "./components/Navbar";
-import Socials from "./components/Socials";
+import Navbar from "../components/Navbar";
+import Socials from "../components/Socials";
 import "./globals.css";
 
 // Dynamic list of arrangements
