@@ -7,11 +7,55 @@ export default function Home() {
       {/* Main Content */}
       <main className="max-w-7xl mx-auto px-6 py-12 space-y-16">
         {/* Hero Section */}
-        <div className="text-center space-y-6 max-w-3xl mx-auto">
-          <h2 className="text-4xl font-extrabold sm:text-5xl">
-            Fremtidige Pranzo invitationer
-          </h2>
-          <p className="text-xl text-gray-200">ph tekst her</p>
+        <div className="space-y-6 mx-auto">
+          <p className="text-4xl font-extrabold sm:text-5xl">
+            Pranzo <span className="italic text-xl">(noun)</span>
+          </p>
+          <p className="text-xl text-gray-200">
+            <strong>Pronunciation:</strong> /ˈpran.tso/
+          </p>
+          <div className="text-xl text-gray-200 text-left space-y-4">
+            <p>
+              <strong>1. Definition:</strong>
+            </p>
+            <ul className="list-disc list-inside space-y-2">
+              <li>
+                a. The main meal of the day in Italian culture, traditionally
+                eaten in the early afternoon.
+              </li>
+              <li>
+                b. A social or family gathering centered around a midday meal.
+              </li>
+            </ul>
+
+            <p>
+              <strong>2. Usage:</strong>
+            </p>
+            <ul className="list-disc list-inside space-y-2">
+              <li>
+                a. "Il pranzo è alle 13:00."{" "}
+                <span className="italic">(Lunch is at 1:00 PM.)</span>
+              </li>
+              <li>
+                b. "Dopo pranzo, andiamo a fare una passeggiata."{" "}
+                <span className="italic">
+                  (After lunch, we’ll go for a walk.)
+                </span>
+              </li>
+            </ul>
+
+            <p>
+              <strong>3. Cultural Context:</strong>
+            </p>
+            <p>
+              In Italy, <strong>pranzo</strong> is often considered the most
+              important meal of the day, especially in southern regions. It
+              typically includes multiple courses, such as antipasto
+              (appetizers), primo (first course, like pasta or risotto), secondo
+              (main course, often meat or fish), contorno (side dishes), and
+              dolce (dessert).
+            </p>
+          </div>
         </div>
 
         {/* About Section */}

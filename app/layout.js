@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
       <body className="bg-[#832B2B] text-white">
         <Navbar arrangements={arrangements} />
         {children}
-        <footer className="bg-[#6D2323] mt-16">
+        <footer className="bg-[#6D2323]">
           <Socials />
         </footer>
       </body>
