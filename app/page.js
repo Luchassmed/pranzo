@@ -33,11 +33,11 @@ export default function Home() {
             </p>
             <ul className="list-disc list-inside space-y-2">
               <li>
-                a. "Il pranzo è alle 13:00."{" "}
+                a. &quot;Il pranzo è alle 13:00.&quot;{" "}
                 <span className="italic">(Lunch is at 1:00 PM.)</span>
               </li>
               <li>
-                b. "Dopo pranzo, andiamo a fare una passeggiata."{" "}
+                b. &quot;Dopo pranzo, andiamo a fare una passeggiata.&quot;{" "}
                 <span className="italic">
                   (After lunch, we’ll go for a walk.)
                 </span>
