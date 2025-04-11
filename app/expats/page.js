@@ -42,8 +42,13 @@ export default function Page() {
           <p>
             Fredag kl. 17:30 bedes du møde op chez moi. Vi starter med en drink,
             der enten vil tage dig til en strand i Algarve eller Côte d’Azur.
+          </p>
+          <p>
             Hvad skal der ellers ske? Det må guderne i Toulouse og Lissabon
             vide.
+          </p>
+          <p>
+            Er det Frankrig? Er det Portugal? Er det hemmeligt? &quot;Oui.&quot;
           </p>
 
           <p>
